@@ -36,6 +36,7 @@
 		FEFBE3B81C81A17800973F84 /* playgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFBE3BC1C81A17800973F84 /* playgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundTests.swift; sourceTree = "<group>"; };
 		FEFBE3BE1C81A17800973F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFBE3C71C81A18400973F84 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		FEFBE39B1C81A17800973F84 = {
 			isa = PBXGroup;
 			children = (
+				FEFBE3C71C81A18400973F84 /* MyPlayground.playground */,
 				FEFBE3A61C81A17800973F84 /* playground */,
 				FEFBE3BB1C81A17800973F84 /* playgroundTests */,
 				FEFBE3A51C81A17800973F84 /* Products */,
@@ -331,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = playground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mosarom.playground;
@@ -342,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = playground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mosarom.playground;
@@ -392,6 +396,7 @@
 				FEFBE3C31C81A17800973F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEFBE3C41C81A17800973F84 /* Build configuration list for PBXNativeTarget "playgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +405,7 @@
 				FEFBE3C61C81A17800973F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
